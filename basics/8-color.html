@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Basics-8: Color</title>
+	<!-- NOTES (from w3schools)
+		* HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.
+	-->
+</head>
+<body>
+	<!-- background-color -->
+	<h1 style="background-color:Tomato;">Tomato</h1>
+	<h1 style="background-color:Orange;">Orange</h1>
+	<h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+	<h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
+	<h1 style="background-color:Gray;">Gray</h1>
+	<h1 style="background-color:SlateBlue;">SlateBlue</h1>
+	<h1 style="background-color:Violet;">Violet</h1>
+	<h1 style="background-color:LightGray;">LightGray</h1>
+
+	<hr>
+
+    <!-- color -->
+	<h1 style="color:Tomato;">Hello World</h1>
+	<p style="color:DodgerBlue;">Lorem ipsum...</p>
+	<p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+
+	<hr>
+
+	<!-- border color -->
+	<h1 style="border: 2px solid Tomato;">Hello World</h1>
+
+	<hr>
+
+	<!-- Transparent -->
+	<p>Same as color name "Tomato":</p>
+
+	<h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
+	<h1 style="background-color:#ff6347;">#ff6347</h1>
+	<h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1>
+
+	<p>Same as color name "Tomato", but 50% transparent:</p>
+	<h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h1>
+	<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
+
+    <hr>
+	
+	<!-- RGB(Red,Green,Blue) and RGBA(Red,Green,Blue,Alpha)-->
+	<!-- Each parameter (red, green, and blue) defines the intensity of the color with a value between 0 and 255. -->
+	<h1 style="background-color:rgb(255, 0, 0);">rgb(255, 0, 0)</h1>	
+	<h1 style="background-color:rgb(0, 255, 0);">rgb(0, 255, 0)</h1>
+	<h1 style="background-color:rgb(0, 0, 255);">rgb(0, 0, 255)</h1>
+    <h1 style="background-color:rgba(0, 0, 255,0.4);">rgba(0, 0, 255,0.4)</h1>
+
+    <hr>
+
+    <!-- HEX Colors -->
+    <!-- RRGGBB -->
+	<h1 style="background-color:#ff0000;">#ff0000</h1>
+	<h1 style="background-color:#00ff00;">#00ff00</h1>
+	<h1 style="background-color:#0000ff;">#0000ff</h1>
+
+	<hr>
+
+	<!-- HSL and HSLA Colors -->
+	<!-- HSL stands for hue, saturation, and lightness. -->
+	<!-- HSLA color values are an extension of HSL with an Alpha channel (opacity). -->
+	<!-- hsl(hue, saturation, lightness) -->
+	<!-- hsla(hue, saturation, lightness, alpha) -->
+	<!-- The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all) -->
+	<h1 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h1>
+	<h1 style="background-color:hsla(9, 100%, 64%, 0.2);">hsla(9, 100%, 64%, 0.2)</h1>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+  border: 2px solid red;
+  padding: 30px;
+  margin: 50px;
+}
+p {
+  color: red;
+  font-family: verdana;
+  font-size: 200%;
+}
+
+/*color property for text colors
+  font-family property for text fonts
+  font-size property for text sizes
+  border property for borders
+  padding property for space inside the border
+  margin property for space outside the border
+
+
+
+*/
