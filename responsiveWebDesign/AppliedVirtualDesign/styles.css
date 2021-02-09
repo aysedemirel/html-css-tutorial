@@ -1,0 +1,65 @@
+#back{
+	position: fixed;
+	padding: 0;
+	margin: 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(black, #000099, #66c2ff, #bdd9ec, #09985b);
+}
+
+.stars {
+    background-color: yellow;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+  }
+
+.star-1 {
+    margin-top: 5%;
+    margin-left: 60%;
+    animation-name: twinkle;
+    animation-duration: 1s;
+}
+
+.star-2 {
+    margin-top: 5%;
+    margin-left: 5%;
+    animation-name: twinkle;
+    animation-duration: 0.9s;
+}
+
+.star-3 {
+    margin-top: 5%;
+    margin-left: 75%;
+    animation-name: twinkle;
+    animation-duration: 0.8s;
+}
+
+ @keyframes twinkle{
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+}
+
+.learning-list{
+	position: absolute;
+	margin-top: 5%;
+    margin-left: 5%;
+}
+
+.love-code{
+	position: relative;
+	margin-top: 70%;
+    margin-left: 5%;
+}
+
+.bottom-layer{
+	position: relative;
+	margin-top: 80%;
+    margin-left: 5%;
+}
+
