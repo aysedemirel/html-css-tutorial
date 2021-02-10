@@ -50,10 +50,10 @@ body{
 .learning-list{
 	margin-top: 5%;
     margin-left: 5%;
-    font-family: cursive;
+    font-family: Indie Flower;
+    font-size: 20px;
     color:#ed5e2a;
     text-align: left;
-
 }
 .learning-list:hover{
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -68,3 +68,54 @@ label, ul{
     margin-left: 5%;
 }
 
+.heart {
+	display: inline-block;
+	margin-left: 10%;
+	background-color: pink;
+	height: 50px;
+	width: 50px;
+	transform: rotate(-45deg);
+	animation-name: beat;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+.heart:after {
+	background-color: pink;
+	content: "";
+	border-radius: 50%;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 0px;
+	left: 25px;
+}
+
+.heart:before {
+	background-color: pink;
+	content: "";
+	border-radius: 50%;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: -25px;
+	left: 0px;
+}
+
+@keyframes beat {
+	0% {
+	    transform: scale(1) rotate(-45deg);
+	}
+	50% {
+	    transform: scale(0.6) rotate(-45deg);
+	}
+}
+
+.code-text{
+	display: inline-block;
+	margin-left: 10%;
+	font-family: Indie Flower;
+	font-size: 50px;
+	color: firebrick;
+	text-shadow: 4px 2px #ffe000;
+}
